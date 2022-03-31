@@ -1,0 +1,71 @@
+
+*{
+    flex-wrap: wrap;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv{
+    padding: 5px;
+    margin: 5px;
+    border: 2px;
+}
+nav ul li a{
+    padding: 5px 10px;
+    color:white;
+    background-color:rgb(9, 17, 510);
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn{
+    padding: 5px 10px;
+    color:white;
+    background-color:rgb(9, 17, 510);
+    border: 2px solid yellowgreen;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lgin{
+    padding: 5px 10px;
+    color:white;
+    background-color:rgb(9, 17, 510);
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sgup{
+    padding: 5px 10px;
+    color:white;
+    background-color:rgb(9, 17, 510);
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ord{
+    padding: 5px 10px;
+    color:white;
+    background-color:rgb(9, 17, 510);
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav .btn:hover{
+    background-color: green;
+    font-weight: bold;
+}
+nav .lgin:hover{
+    background-color: aqua;
+    font-weight: bold;
+}
+nav .sgup:hover{
+    background-color: aqua;
+    font-weight: bold;
+}
+nav .ord:hover{
+    background-color: aqua;
+    font-weight: bold;
+}
